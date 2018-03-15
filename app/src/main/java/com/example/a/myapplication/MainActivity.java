@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         String appLinkAction = appLinkIntent.getAction();
         Uri appLinkData = appLinkIntent.getData();
         handleIntent(getIntent());
+        //this is my test code
     }
 
     protected void onNewIntent(Intent intent) {
